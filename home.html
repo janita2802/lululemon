@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shop.lululemon.com</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
+</head>
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+<link rel = "stylesheet" href = "home.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+<body>
+    <header>
+        <div id="InnerBanner">
+            <div id="InnerBannerPromo">
+                <p>
+                    <span>
+                        Early access: the Two-Tone Canvas Tote is back. Members have first dibs before it’s gone (again).
+                    </span>
+                    <span id="anchorHR">
+                        <a href="#" class="anchor_anchor">Shop on the App</a>
+                    </span>
+                </p>
+            </div>
+            
+            <button class="button_clear" type="button" onclick="removeDiv();">
+                <img src="images\cross.svg" alt="closeIcon">
+            </button>
+        </div>
+        <div id="top-nav">
+            <div id="options">
+                <div class="storeLocatorContainer">
+                    <button type="button" tabindex="0" class="iconWrapperButton" title="store locator icon">
+                        <img src="images\location.svg" alt="store locator icon" class="optionicon">
+                        <span class="iconComponents_underline">Store Locator</span>
+                    </button>
+                </div>
+
+                <a href="#" class="iconWrapperacnchor">
+                    <img src="images\gift.svg" alt="gift icon" class="optionicon">
+                    <span class="iconComponents_underline">Gift Cards</span>
+                </a>
+
+                <button class="iconWrapperButton" type="button" title="help center icon">
+                    <img src="images\help.svg" alt="help center icon" class="optionicon">
+                    <span class="iconComponents_underline">Get Help</span>
+                </button>
+
+                <a href="#" class="iconWrapperacnchor">
+                    <img src="images\USA.svg" alt= "region selector icon" class="optionicon">
+                    <span class="iconComponents_underline">USA</span>
+                </a>
+            </div>
+            <div id="menu" class="menu">
+                <div id="logo">
+                    <a href="https://shop.lululemon.com">
+                        <img src="images\logo.svg" alt="logo">
+                        <span class="hidden-visually">lululemon athletica</span>
+                    </a>
+                </div>
+                <ul>
+                    <li><a href="#" class="">Women</a></li>
+                    <li><a href="#" class="">Men</a></li>
+                    <li><a href="#" class="">accessories</a></li>
+                    <li><a href="#" class="">Shoes</a></li>
+                    <li><a href="#" class="">Like New</a></li>
+                    <li><a href="#" class="">Father's Day</a></li>
+                </ul>
+                <div id="secondnav">
+                    <ul>
+                        <div class = "search">
+                            <form autocomplete="off" action="https://shop.lululemon.com/search">
+                                <img src="images\search.svg" alt="search_closeIcon" focusable="false" a-hidden="false" title="Close">
+                                <input autocomplete="off" placeholder="Search" class="search_input" name="Ntt" type="search" value="">
+                            </form>
+                        </div>
+                        <div class="sign-in_profile">
+                            <a href="sign.html" class="anchoriconWrapper">
+                                <img src="images\signin.svg" alt ="sign in" class="iconComponents_icon" focusable="false">
+                                <title>account menu icon</title>
+                                <span class="iconComponents_underline">Sign In</span>
+                            </a>
+                        </div>
+                        <a href="#" class="anchoriconWrapper">
+                            <img src="images\wishlist.svg" alt ="whishlist"  class="wish" focusable="false">
+                            <title>wish list icon</title>
+                        </a>
+                        <div class="secondary_cartIcon">
+                            <a href="#" class="anchoriconWrapper" title="0 items" aria-label="0 items in the bag, click to view the bag" >
+                                <img src="images\cart.svg" alt ="cart" focusable="false" class="iconComponents_icon">
+                                <title>bagIcon</title>
+                                <span id="cart-total" class="shoppingCartCount">0</span>
+                            </a>
+                        </div>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+  
+    </header>
+    <div class="detailNav">
+        <div class="mainDetail" role="menuitem" tabindex="-1">
+            <ul data-testid="account-menu-ul" class="ulStyle mainDetailList">
+                <li class="title"><a href="#">Shoes by Gender</a>
+                    <span class="arrowsvg">
+                    <img src="images/arrowred.svg" alt="arrowimg">
+                    </span>
+                </li>
+                <li><a href="#" >Women's Shoes</a></li>
+                <li><a href="#" >Men's Shoes</a></li>
+            </ul>
+            <ul data-testid="account-menu-ul" class="ulStyle mainDetailList">
+                <li class="title"><a href="#">Shoe Types</a>
+                    <span class="arrowsvg">
+                        <img src="images/arrowred.svg" alt="arrowimg">
+                    </span>
+                </li>
+                <li><a href="#" >Cross Training Shoes</a></li>
+                <li><a href="#" >Running Shoes</a></li>
+                <li><a href="#" >Slides</a></li>
+                <li><a href="#" >Sneakers</a></li>
+                <li><a href="#" >Trail Running Shoes</a></li>
+                <li><a href="#" >Workout Shoes</a></li>
+            </ul>
+        </div>
+        <a href="#?icid=cdp-navigation;1;meganavpromoblock;cdp:shoes;weeklies;womens" class="promoBlock">
+            <div class="promoImageContainer">
+                <picture>
+                    <img src="https://images.lululemon.com/is/image/lululemon/na_May24_wk4_W_OTM_MegaNavPromo_Shoes?$promoBlock$&amp;wid=320&amp;fmt=jpeg" alt="Image. Close-up shot of a person wearing cityverse sneakers.">
+                </picture>
+            </div>
+            <p class="promoheading">Step summer up.</p>
+            <p class="promotext">Pack more in when out—cityverse sneakers come with custom cushioning and support.</p>
+            <p class="promoBlockText">Shop Shoes
+                <span class="arrowsvg">
+                <img src="images/arrowred.svg" alt="arrowimg">
+                </span>
+            </p>
+        </a>
+        <div class="activityBarWrapper" role="menu">
+            <p class="activityBarLabel">Activity</p>
+            <ul data-testid="account-menu-ul" class="ulStyle activityBarList">
+                <li><a href="#">Running</a></li>
+                <li><a href="#">Workout</a></li>
+                <li><a href="#">Casual</a></li>
+                <li><a href="#">Hiking</a></li>
+                <li class="shopAllFeature"><a href="#" class="navItemShopAll">SHOP ALL SHOES</a>
+                    <span class="arrowsvg">
+                        <img src="images/arrowred.svg" alt="arrowimg">
+                    </span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="detailNav2">
+        <div class="mainDetail" role="menuitem" tabindex="-1">
+            <ul class="ulStyle mainDetailList line">
+            <li><a href="#">What's New</a></li>
+            <li><a href="#">Bestsellers</a></li>
+            <li><a href="#">Align Shop</a></li>
+            <li><a href="#">Travel Clothes</a></li>
+            <li><a href="#">Matching Sets</a></li>
+            <li><a href="#">Athletic Shorts</a></li>
+            <li><a href="#">Tennis and Golf Clothes</a></li>
+            <li><a href="#">Summer Clothes</a></li>
+            <li><a href="#">Plus Size Clothes</a></li>
+            <li><a href="#"> We Made Too Much</a></li>
+            </ul>
+            <ul class="ulStyle mainDetailList">
+                <li class="title"><a href="#">Women's Clothes</a>
+                    <span class="arrowsvg">
+                        <img src="images/arrowred.svg" alt="arrowimg">
+                    </span>
+                </li>
+                <li><a href="#">Shorts</a></li>
+                <li><a href="#">Bodysuits</a></li>
+                <li><href="#">Coats &amp; Jackets</a></li>
+                <li><a href="#">Dresses</a></li>
+                <li><a href="#">Hoodies &amp; Sweatshirts</a></li>
+                <li><a href="#">Joggers</a></li>
+                <li><a href="#">Jumpsuits &amp; Rompers</a></li>
+                <li><a href="#">Leggings</a></li>
+                <li><a href="#">Long Sleeve Shirts</a></li>
+            </ul>
+            <ul class="list3">
+                <li><p></p></li>
+
+                <li><a href="#">Pants</a></li>
+                <li><a href="#">Polo Shirts</a></li>
+                <li><a href="#">Shirts</a></li>
+                <li><a href="#">Shoes</a></li>
+                <li><a href="#">Skirts</a></li>
+                <li><a href="#">Sports Bra</a></li>
+                <li><a href="#">T-Shirts</a></li>
+                <li><a href="#">Ten Tops</a></li>
+                <li><a href="#">Underwear</a></li>
+            </ul>
+            <ul class="ulStyle mainDetailList">
+                <li class="title"><a href="#">ACCESSORIES</a>
+                    <span class="arrowsvg">
+                        <img src="images/arrowred.svg" alt="arrowimg">
+                    </span>
+                </li>
+                <li><a href="#">Backpacks</a></li>
+                <li><a href="#">Bags</a></li>
+                <li><href="#">Belt Bags</a></li>
+                <li><a href="#">Crossbody Bags</a></li>
+                <li><a href="#">Hair Accessories</a></li>
+                <li><a href="#">Hats</a></li>
+                <li><a href="#">Socks</a></li>
+                <li><a href="#">Water Bottles</a></li>
+                <li><a href="#">Yoga Mats</a></li>
+            </ul>  
+        </div>
+
+        <a href="#?icid=cdp-navigation;1;meganavpromoblock;cdp:shoes;weeklies;womens" class="promoBlock">
+            <div class="promoImageContainer">
+                <picture>
+                    <img src="https://images.lululemon.com/is/image/lululemon/na_May24_wk4_W_OTM_MegaNavPromo_Shorts?$promoBlock$&wid=320&fmt=jpeg"
+                    alt="Image. A person is wearing the Inner Glow Short.">
+                </picture>
+            </div>
+            <p class="promoheading">Shorts on. Limits off.</p>
+            <p class="promotext">When non-stop comfort meets athletic performance, everything goes.</p>
+            <p class="promoBlockText">Shop Shorts
+                <span class="arrowsvg">
+                <img src="images/arrowred.svg" alt="arrowimg">
+                </span>
+            </p>
+        </a>
+        <div class="activityBarWrapper" role="menu">
+            <p class="activityBarLabel">Activity</p>
+            <ul data-testid="account-menu-ul" class="ulStyle activityBarList">
+                <li><a href="#">Running</a></li>
+                <li><a href="#">Workout</a></li>
+                <li><a href="#">Casual</a></li>
+                <li><a href="#">Yoga</a></li>
+                <li><a href="#">Golf</a></li>
+                <li><a href="#">Tennis</a></li>
+                <li class="shopAllFeature"><a href="#" class="navItemShopAll">SHOP ALL SHOES</a>
+                    <span class="arrowsvg">
+                        <img src="images/arrowred.svg" alt="arrowimg">
+                    </span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="detailNav3">
+        <div class="mainDetail" role="menuitem" tabindex="-1">
+            <ul class="ulStyle mainDetailList line">
+            <li><a href="#">What's New</a></li>
+            <li><a href="#">Bestsellers</a></li>
+            <li><a href="#">ABC Collectio</a></li>
+            <li><a href="#">Business Casual Clothes</a></li>
+            <li><a href="#">Father's Day Gifts</a></li>
+            <li><a href="#">Golf Clothes</a></li>
+            <li><a href="#">Travel Clothes</a></li>
+            <li><a href="#">Trending Shorts</a></li>
+            <li><a href="#">Summer Clothes</a></li>
+            <li><a href="#"> We Made Too Much</a></li>
+            </ul>
+            <ul class="ulStyle mainDetailList">
+                <li class="title"><a href="#">Men's Clothes</a>
+                    <span class="arrowsvg">
+                        <img src="images/arrowred.svg" alt="arrowimg">
+                    </span>
+                </li>
+                <li><a href="#">Shorts</a></li>
+                <li><a href="#">Button Down Shirts</a></li>
+                <li><href="#">Coats &amp; Jackets</a></li>
+                <li><a href="#">Half Zip Sweatshirts</a></li>
+                <li><a href="#">Hoodies &amp; Sweatshirts</a></li>
+                <li><a href="#">Joggers</a></li>
+                <li><a href="#">Long Sleeve Shirts</a></li>
+                <li><a href="#">Pants</a></li>
+                <li><a href="#">Polo Shirtss</a></li>
+            </ul>
+            <ul class="list3">
+                <li><p></p></li>
+                <li><a href="#">Shirts</a></li>
+                <li><a href="#">Shoes</a></li>
+                <li><a href="#">Socks</a></li>
+                <li><a href="#">Sweaters</a></li>
+                <li><a href="#">Swim Trunks</a></li>
+                <li><a href="#">Tank Tops</a></li>
+                <li><a href="#">Trousers</a></li>
+                <li><a href="#">T-Shirts</a></li>
+                <li><a href="#">Underwear</a></li>
+            </ul>
+            
+            <ul class="ulStyle mainDetailList">
+                <li class="title"><a href="#">ACCESSORIES</a>
+                    <span class="arrowsvg">
+                        <img src="images/arrowred.svg" alt="arrowimg">
+                    </span>
+                </li>
+                <li><a href="#">Backpacks</a></li>
+                <li><a href="#">Bags</a></li>
+                <li><href="#">Belt Bags</a></li>
+                <li><href="#">Caps</a></li>
+                <li><a href="#">Crossbody Bags</a></li>
+                <li><a href="#">Duffle Bags</a></li>
+                <li><a href="#">Hats</a></li>
+                <li><a href="#">Water Bottles</a></li>
+                <li><a href="#">Yoga Mats</a></li>
+            </ul>  
+        </div>
+        <a href="#?icid=cdp-navigation;1;meganavpromoblock;cdp:shoes;weeklies;womens" class="promoBlock">
+            <div class="promoImageContainer">
+                <picture>
+                    <img src="https://images.lululemon.com/is/image/lululemon/na_Jun24_wk1_M_Golf_MegaNavPromo_ABCPants?$promoBlock$&wid=320&fmt=jpeg"
+                    alt="Image. A person is wearing the Inner Glow Short.">
+                </picture>
+            </div>
+            <p class="promoheading">Your all-day long pant.</p>
+            <p class="promotext">Sweat-wicking, shape-holding styles take you to the 18th hole and beyond.</p>
+            <p class="promoBlockText">Shop ABC Collection
+                <span class="arrowsvg">
+                <img src="images/arrowred.svg" alt="arrowimg">
+                </span>
+            </p>
+        </a>
+        <div class="activityBarWrapper" role="menu">
+            <p class="activityBarLabel">Activity</p>
+            <ul data-testid="account-menu-ul" class="ulStyle activityBarList">
+                <li><a href="#">Golf</a></li>
+                <li><a href="#">Running</a></li>
+                <li><a href="#">Workout</a></li>
+                <li><a href="#">Casual</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Tennis</a></li>
+                <li class="shopAllFeature"><a href="#" class="navItemShopAll">SHOP ALL MEN</a>
+                    <span class="arrowsvg">
+                        <img src="images/arrowred.svg" alt="arrowimg">
+                    </span>
+                </li>
+            </ul>
+        </div>
+    </div>
+     <div class="detailNav4">
+        <div class="mainDetail" role="menuitem" tabindex="-1">
+            <ul class="ulStyle mainDetailList line">
+            <li><a href="#">What's New</a></li>
+            <li><a href="#">Bestsellers</a></li>
+            <li><a href="#">Mini Bags</a></li>
+            <li><a href="#">Running Accessories</a></li>
+            <li><a href="#">Pink Accessories</a></li>
+            <li><a href="#">Everywhere Bag Shop</a></li>
+            <li><a href="#">Travel Accessories</a></li>
+            <li><a href="#">Summer Accessories</a></li>
+            <li><a href="#"> We Made Too Much</a></li>
+            </ul>
+            <ul class="ulStyle mainDetailList">
+                <li class="title"><a href="#">ACCESSORIES</a>
+                    <span class="arrowsvg">
+                        <img src="images/arrowred.svg" alt="arrowimg">
+                    </span>
+                </li>
+                <li><a href="#">Bags</a></li>
+                <li><a href="#">Bucket Hats</a></li>
+                <li><href="#">Caps</a></li>
+                <li><a href="#">Equipment</a></li>
+                <li><a href="#"> Gloves & Mittens</a></li>
+                <li><a href="#">Hair Accessories</a></li>
+                <li><a href="#">Hats</a></li>
+            </ul>        
+            <ul class="list3">
+                <li><p></p></li>
+                <li><a href="#">Headbands</a></li>
+                <li><a href="#">Keychains</a></li>
+                <li><a href="#">Men's Socks</a></li>
+                <li><a href="#">Scarves & Wraps</a></li>
+                <li><a href="#">Water Bottles</a></li>
+                <li><a href="#">Women's Socks</a></li>
+                <li><a href="#">Yoga Mats</a></li>
+            </ul>
+
+            <ul class="ulStyle mainDetailList">
+                <li class="title"><a href="#">BAGS</a>
+                    <span class="arrowsvg">
+                        <img src="images/arrowred.svg" alt="arrowimg">
+                    </span>
+                </li>
+                <li><a href="#">Backpacks</a></li>
+                <li><href="#">Caps</a></li>
+                <li><a href="#">Crossbody Bags</a></li>
+                <li><a href="#">Duffle Bags</a></li>
+                <li><a href="#">Totes</a></li>
+                <li><a href="#">Wallets &and; Pouches</a></li>
+                <li><a href="#">Yoga Mats</a></li>
+            </ul>  
+        </div>
+        <a href="#?icid=cdp-navigation;1;meganavpromoblock;cdp:shoes;weeklies;womens" class="promoBlock">
+            <div class="promoImageContainer">
+                <picture>
+                    <img src="https://images.lululemon.com/is/image/lululemon/NA_Jun24_Wk1_M_FathersDay_MegaNavPromo_Under50?$promoBlock$&wid=320&fmt=jpeg"
+                    alt="Image. A person is wearing the Inner Glow Short.">
+                </picture>
+            </div>
+            <p class="promoheading">Versatile gifts for do-it-all dads.</p>
+            <p class="promotext">Gear to balance out Dad’s day-to-day.</p>
+            <p class="promoBlockText">Shop Gifts Under $50
+                <span class="arrowsvg">
+                <img src="images/arrowred.svg" alt="arrowimg">
+                </span>
+            </p>                  
+        </a>
+        <div class="activityBarWrapper" role="menu">
+            <p class="activityBarLabel">Activity</p>
+            <ul data-testid="account-menu-ul" class="ulStyle activityBarList">
+                <li><a href="#">Yoga</a></li>
+                <li><a href="#">Running</a></li>
+                <li><a href="#">Workout</a></li>
+                <li><a href="#">Casual</a></li>
+                <li><a href="#">Travel</a></li>
+                <li><a href="#">Tennis</a></li>
+                <li class="shopAllFeature"><a href="#" class="navItemShopAll">SHOP ALL ACCESSORIES</a>
+                    <span class="arrowsvg">
+                        <img src="images/arrowred.svg" alt="arrowimg">
+                    </span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="detailNav5">
+        <div class="mainDetail" role="menuitem" tabindex="-1">
+            <ul class="ulStyle mainDetailList line">
+            <li class="title"><a href="#">FATHER'S DAY GIFTS</a>
+                <span class="arrowsvg">
+                    <img src="images/arrowred.svg" alt="arrowimg">
+                </span>
+            </li>
+            <li><a href="#">Our Best Gift</a></li>
+            <li><a href="#">Gifts Under $50</a></li>
+            <li><a href="#">Gifts Under $100</a></li>
+            <li><a href="#">Golf Gifts</a></li>
+            <li><a href="#">Gift Cards</a></li>
+            </ul>
+        </div>
+        <a href="#?icid=cdp-navigation;1;meganavpromoblock;cdp:shoes;weeklies;womens" class="promoBlock">
+            <div class="promoImageContainer">
+                <picture>
+                    <img src="https://images.lululemon.com/is/image/lululemon/NA_May24_Wk4_M_FathersDay_MegaNav_Skate?$promoBlock$&wid=320&fmt=jpeg"
+                    alt="Image. A person is wearing the Inner Glow Short.">
+                </picture>
+            </div>
+            <p class="promoheading">Versatile gifts for do-it-all dads.</p>
+            <p class="promotext">Gear to balance out Dad’s day-to-day.</p>
+            <p class="promoBlockText">Shop Gifts Under $50
+                <span class="arrowsvg">
+                <img src="images/arrowred.svg" alt="arrowimg">
+                </span>
+            </p>                  
+        </a>
+    </div>
+    <div class="container1">
+
+        <div id="box">
+            <h1>lululemon</h1>
+            <ul>
+                <li>
+                    <a href="#">Father's Day Gifts</a>
+                </li>
+                <li>
+                    <a  href="#">Women's What's New</a>
+                </li>
+                <li>
+                    <a href="#">All Women's</a>
+                </li>
+                <li>
+                    <a href="#">All Men's</a>
+                </li>
+                <li><a href="#">All Accessories</a>
+                </li>
+            </ul>
+        </div>
+        <div class="banner">
+            <img src="https://images.lululemon.com/is/image/lululemon/na_May24_wk4_M_Train_3_1_D_V2?wid=1600&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72" alt="banner">
+            <div class="cta-buttons">
+                <a class="button tertiary-button text-button" href="#">
+                    Shop Men's What's New
+                </a>
+            </div>
+            <div class="grid">
+                <div class="hero-text">
+                    <h2 class="headline text-medium">Connor Bedard's MVT.</h2>
+                </div>
+                <div class="short-description-wrapper">
+                    <p class="short-description text-body-1">
+                        Metal Vent Tech. Our hardest working training shirt is<br>
+                        now our most-improved and the one he trusts to perform.
+                    </p>
+                </div>
+            </div>
+        </div>   
+    </div>
+    <button id="nebula_div_btn" class="nebula_image_button">
+        <img alt="Feedback" src="https://resources.digital-cloud.medallia.com/wdcus/55284/resources/image/1606143979979_Feedback-Updated.jpg">
+    </button>
+    <div id="container2">
+        <div id="card2">
+            <div>
+                <img src="https://images.lululemon.com/is/image/lululemon/na_May24_wk4_M_Train_1_2_Lg_MediaAction_D_MVT_Static_V2?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72" alt="card1">
+                <p class="heading">
+                    Higher performance is the goal.
+                </p>
+                <p class="about">
+                    The new MVT:now roomier in the shoulders and chest for more movement, less cling.
+                </p>
+                <div class="btnwrapper">
+                    <span class="primary-action-button">
+                        <a class="firstbtn link button text-button secondary-button mobile-block">Shop Shirts</a>
+                    </span>
+                    <span class="secondary-action-button">
+                        <a class="link button text-button tertiary-button mobile-block">Shop Metal Vent Tech</a>
+                    </span>  
+                </div>
+            </div>
+
+            <div>
+                <img src="https://images.lululemon.com/is/image/lululemon/na_May24_wk4_M_Train_1_2_Lg_MediaAction_D_Shorts?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72" alt="card1">
+                <p class="heading">
+                    Game to go faster.
+                </p>
+                <p class="about">
+                    The super light, stretchy Pace Breaker Short is ready when you are.
+                </p>
+                <div class="btnwrapper">
+                    <span class="primary-action-button">
+                        <a class="link button text-button tertiary-button mobile-block">Shop Shorts</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="adcontainer2">
+        <div class="test">
+            <div class="slide-container swiper">
+                <div class="slide-content">
+                    <div class="card-wrapper swiper-wrapper">
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <div class="card-image">
+                                   <img src="https://images.lululemon.com/is/image/lululemon/LM7BHJS_038470_1?wid=320&op_usm=0.8,1,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h3 class="name">License to Train Linerless Short 5"</h3>
+                                <span class="description">$88</span>
+                            </div>
+                        </div>
+                        <!-- <div class="product card">
+                            <img src="https://images.lululemon.com/is/image/lululemon/LM7BHJS_038470_1?wid=320&op_usm=0.8,1,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72" alt="productimg">
+                            <div class="productinfo">
+                                <h3>
+                                    License to Train Linerless Short 5"
+                                </h3>
+                                <span class="product-price">
+                                    $88
+                                </span>
+                            </div> 
+                        </div> -->
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <div class="card-image">
+                                   <img src="https://images.lululemon.com/is/image/lululemon/LM3F16S_065550_1?wid=1440&op_usm=0.8,1,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h3 class="name">Zeroed In Short-Sleeve Shirt</h3>
+                                <span class="description">$48</span>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <div class="card-image">
+                                   <img src="https://images.lululemon.com/is/image/lululemon/LM7BJ0S_063557_1?wid=320&op_usm=0.8,1,10,0&fmt=jpeg&qlt=75,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h3 class="name">Zeroed In Linerless Short 7"</h3>
+                                <span class="description">$68</span>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <div class="card-image">
+                                   <img src="https://images.lululemon.com/is/image/lululemon/LM3FHKS_039776_1?wid=320&op_usm=0.8,1,10,0&fmt=jpeg&qlt=75,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h3 class="name">Metal Vent Tech Long-Sleeve Shirt Updated Fit</h3>
+                                <span class="description">$88</span>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <div class="card-image">
+                                   <img src="https://images.lululemon.com/is/image/lululemon/LM4APWS_033488_1?wid=320&op_usm=0.8,1,10,0&fmt=jpeg&qlt=75,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h3 class="name">License to Train Linerless Short 5"</h3>
+                                <span class="description">$168</span>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <div class="card-image">
+                                   <img src="https://images.lululemon.com/is/image/lululemon/LM3FG2S_065588_1?wid=320&op_usm=0.8,1,10,0&fmt=jpeg&qlt=75,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h3 class="name">Metal Vent Tech Short-Sleeve Shirt Updated Fit</h3>
+                                <span class="description">$78</span>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <div class="card-image">
+                                   <img src="https://images.lululemon.com/is/image/lululemon/LM7B85S_065984_1?wid=320&op_usm=0.8,1,10,0&fmt=jpeg&qlt=75,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h3 class="name">Pace Breaker Linerless Short 5"</h3>
+                                <span class="description">$68</span>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <div class="card-image">
+                                   <img src="https://images.lululemon.com/is/image/lululemon/LM1364S_039776_1?wid=320&op_usm=0.8,1,10,0&fmt=jpeg&qlt=75,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h3 class="name">Metal Vent Tech Sleeveless Shirt Updated Fit</h3>
+                                <span class="description">$68</span>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+    
+                <div class="swiper-button-next swiper-navBtn">
+                    <img src="images/rightarrow.svg" alt="Next">
+                </div>
+                <div class="swiper-button-prev swiper-navBtn">
+                    <img src="images/leftarrow.svg" alt="Previous">
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <div class="ad">
+            <span class="primary-action-button">
+              <a href="#" class="link button text-button tertiary-button mobile-block">Shop Best Workout Gear</a>
+            </span>
+          </div>
+    </div>
+
+    <div class="adcontainer" style="margin-top: -60px;">
+        <img src="https://images.lululemon.com/is/image/lululemon/NA_May24_Membership_EA_Launch_Ecomm_1_1_Med_MediaAction_D?wid=2420&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72" alt="banner4">
+        <p class="heading">
+            It’s back. Let the plans begin.
+        </p>
+        <p class="about">
+            Make room for more with the return of the Two-Tone Canvas Tote. Members get first dibs before it's gone (again)—only on the lululemon App.
+        </p>
+        <span class="primary-action-button">
+            <a class="link button text-button tertiary-button mobile-block">SHOP ON THE APP</a>
+         </span>    
+    </div>
+    
+    <div class="adcontainer">
+        <img src="https://images.lululemon.com/is/image/lululemon/NA_May24_Wk3_DG_SU24Shorts_1_1_Med_MediaAction_D_HP_Sustain?wid=2420&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72" alt="banner4">
+        <p class="heading">
+            Shorts on. Limits off.
+        </p>
+        <p class="about">
+            When non-stop comfort meets athletic performance, everything goes.
+        </p>
+         <span class="primary-action-button">
+            <a class="firstbtn link button text-button secondary-button mobile-block">Shop Women's Shorts</a>
+        </span>
+        <span class="secondary-action-button">
+            <a class="link button text-button tertiary-button mobile-block">Shop Men's Shorts</a>
+        </span>
+    </div>
+    <div class="adcontainer">
+        <img src="https://images.lululemon.com/is/image/lululemon/na_May24_wk4_W_OTM_1_1_Med_MediaAction_D_WhatsNew?wid=2420&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72" alt="banner4">
+        <p class="heading">
+            Expand your plan. &nbsp;
+        </p>
+        <p class="about">
+            Breathable and versatile—the Align Cami Tank Top is perfect for summer spontaneity.  &nbsp;&nbsp;
+        </p>
+        <span class="primary-action-button">
+            <a class="link button text-button tertiary-button mobile-block">Shop What's New</a>
+         </span>    
+    </div>
+
+    <div class="adcontainer">
+        <div class="slider-wrapper">
+          <div class="arrow arrow-left2">
+            <div class="arrow-icon">
+              <img src="images/leftarrow.svg" alt="Previous">
+            </div>
+          </div>
+          <div class="product-container2">
+                <div class="product card " >
+                    <img src="https://images.lululemon.com/is/image/lululemon/LW1EZSS_036324_1?wid=320&op_usm=0.8,1,10,0&fmt=jpeg&qlt=75,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72 " alt="productimg">
+                    <div class="productinfo">
+                        <h3>
+                            lululemon Align™ Dress
+                        </h3>
+                        <span class="product-price">
+                            $148
+                        </span>
+                            </div>
+                        </div>
+                <div class="product card">
+                    <img src="https://images.lululemon.com/is/image/lululemon/LW3HJFS_064717_1?wid=320&op_usm=0.8,1,10,0&fmt=jpeg&qlt=75,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72" alt="productimg">
+                    <div class="productinfo">
+                        <h3>
+                            Define Cropped Jacket Nulu
+                        </h3>
+                        <span class="product-price">
+                            $118
+                        </span>
+                                </div>
+                            </div>
+                <div class="product card">
+                    <img src="https://images.lululemon.com/is/image/lululemon/LW1DRNS_0002_1?wid=320&op_usm=0.8,1,10,0&fmt=jpeg&qlt=75,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72" alt="productimg">
+                    <div class="productinfo">
+                        <h3>
+                            lululemon Align™ Waist-Length Racerback Tank Top
+                        </h3>
+                        <span class="product-price">
+                            $58
+                        </span>
+                            </div>
+                        </div>
+                <div class="product card">
+                    <img src="https://images.lululemon.com/is/image/lululemon/LW8ALRS_031382_1?wid=320&op_usm=0.8,1,10,0&fmt=jpeg&qlt=75,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72" alt="productimg">
+                    <div class="productinfo">
+                        <h3>
+                            High-Rise Pleated Tennis Skirt
+                        </h3>
+                        <span class="product-price">
+                            $68
+                        </span>
+                                </div>
+                            </div>
+                <div class="product card">
+                    <img src="https://images.lululemon.com/is/image/lululemon/LW1EZJS_036324_1?wid=320&op_usm=0.8,1,10,0&fmt=jpeg&qlt=75,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72" alt="productimg">
+                    <div class="productinfo">
+                        <h3>
+                            lululemon Align™ Cropped Cami Tank Top A/B Cup
+                        </h3>
+                        <span class="product-price">
+                            $68
+                        </span>
+                            </div>
+                        </div>
+                <div class="product card">
+                    <img src="https://images.lululemon.com/is/image/lululemon/LW7BDRS_036324_1?wid=320&op_usm=0.8,1,10,0&fmt=jpeg&qlt=75,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72" alt="productimg">
+                    <div class="productinfo">
+                        <h3>
+                            Inner Glow High-Rise Short 3"
+                        </h3>
+                        <span class="product-price">
+                            $68
+                        </span>
+                                </div>
+                            </div>
+                <div class="product card">
+                    <img src="https://images.lululemon.com/is/image/lululemon/LW3HLCS_0002_1?wid=320&op_usm=0.8,1,10,0&fmt=jpeg&qlt=75,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72" alt="productimg">
+                    <div class="productinfo">
+                        <h3>
+                            Relaxed-Fit Cotton-Blend Poplin Button-Down Shirt
+                        </h3>
+                        <span class="product-price">
+                            $98
+                        </span>
+                            </div>
+                        </div>
+                <div class="product card">
+                    <img src="https://images.lululemon.com/is/image/lululemon/LW9EF2S_064619_1?wid=320&op_usm=0.8,1,10,0&fmt=jpeg&qlt=75,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72" alt="productimg">
+                    <div class="productinfo">
+                        <h3>
+                            restfeel Women's Slide
+                        </h3>
+                        <span class="product-price">
+                            $58
+                        </span>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+    
+          <div class="arrow arrow-right2">
+            <div class="arrow-icon">
+                    <img src="images/rightarrow.svg" alt="Next">
+                </div>
+            </div>
+        </div>
+    
+        <ul class="dot-list">
+          <li class="dot-item">
+            <button aria-label="slide 1 of 8 (Current Slide)" class="dot-button2 active" type="button">
+              <span></span>
+            </button>
+          </li>
+          <li class="dot-item">
+            <button aria-label="slide 2 of 8" class="dot-button2" type="button">
+              <span></span>
+            </button>
+          </li>
+          <li class="dot-item">
+            <button aria-label="slide 3 of 8" class="dot-button2" type="button">
+              <span></span>
+            </button>
+          </li>
+          <li class="dot-item">
+            <button aria-label="slide 4 of 8" class="dot-button2" type="button">
+              <span></span>
+            </button>
+          </li>
+          <li class="dot-item">
+            <button aria-label="slide 5 of 8" class="dot-button2" type="button">
+              <span></span>
+            </button>
+          </li>
+          <li class="dot-item">
+            <button aria-label="slide 6 of 8" class="dot-button2" type="button">
+              <span></span>
+            </button>
+          </li>
+          <li class="dot-item">
+            <button aria-label="slide 7 of 8" class="dot-button2" type="button">
+              <span></span>
+            </button>
+          </li>
+          <li class="dot-item">
+            <button aria-label="slide 8 of 8" class="dot-button2" type="button">
+              <span></span>
+            </button>
+          </li>
+        </ul>
+        
+        <div class="ad">
+          <span class="primary-action-button">
+            <a href="#" class="link button text-button tertiary-button mobile-block">Shop Best Workout Gear</a>
+          </span>
+        </div>
+    </div>
+    <div class="adcontainer" style="margin-top: -60px;">
+        <img src="https://images.lululemon.com/is/image/lululemon/NA_Jun24_Pride_Ecomm_1_1_Med_MediaAction_D_Homepage?wid=2420&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72" alt="banner4">
+        <p class="heading">
+            Made to celebrate.
+        </p>
+        <p class="about">
+            LGBTQ2IA+ joy is a beautiful thing—and it needs space to grow. This year's pride graphics were inspired by a space that has historically served that purpose: the dance floor.
+        </p>
+        <span class="primary-action-button">
+            <a class="link button text-button tertiary-button mobile-block">Shop Pride Collection</a>
+         </span>    
+    </div>
+    <div class="adcontainer">
+        <img src="https://images.lululemon.com/is/image/lululemon/na_Apr24_wk3_W_OTM_1_1_Med_MediaAction_D_MatchingSets?wid=2420&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72" alt="banner4">
+        <p class="heading">
+            Calm, cool, collected.
+        </p>
+        <p class="about">
+            Double that put-together feeling in an Oasis Blue Softstreme set.
+        </p>
+        <span class="primary-action-button">
+            <a class="link button text-button tertiary-button mobile-block">Shop Blue Clothes</a>
+         </span>    
+    </div>
+    <div class="adcontainer">
+        <img src="https://images.lululemon.com/is/image/lululemon/na_apr22_wk2_M_OTM_0_8_Background_Image_SolidBlack?wid=1322&op_usm=0.8,1,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72" alt="blacck picture">
+        <div class="text-wrapper">
+            <h2 class="headline-text small-text">Shopping made seamless.</h2>
+            <div class="text-description body-text">Free shipping. Free returns.</div>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <div class="footerMenu">
+            <div class="footerInnerSection">
+                <span class="subHeader">MY ACCOUNT</span>
+                <ul>
+                    <li><span>Membership Program</span></li>
+                    <li><span>Sign In</span></li>
+                    <li><span>Register</span></li>
+                    <li><span>Order Status</span></li>
+                    <li><span>Returns</span></li>
+                </ul>
+            </div>
+            <div class="footerInnerSection">
+                <span class="subHeader">HELP</span>
+                <ul>
+                    <li><span>FAQ</span></li>
+                    <li><span>Accessibility</span></li>
+                    <li><span>Services</span></li>
+                    <li><span>Ordering</span></li>
+                    <li><span>Shipping Policy</span></li>
+                    <li><span>Returns</span></li>
+                    <li><span>Redeem Gift Cards</span></li>
+                    <li><span>Sizing</span></li>
+                    <li><span>Our Products</span></li>
+                </ul>
+            </div>
+            <div class="footerInnerSection">
+                <span class="subHeader">ABOUT US</span>
+                <ul>
+                    <li><span>Our Business</span></li>
+                    <li><span>Media</span></li>
+                    <li><span>Investors</span></li>
+                    <li><span>Strategic Sales</span></li>
+                    <li><span>Affiliates and Creators</span></li>
+                    <li><span>Sweat Collective</span></li>
+                    <li><span>FURTHER</span></li>
+                </ul>
+            </div>
+            <div class="footerInnerSection">
+                <span class="subHeader">CONTACT US</span>
+                <ul>
+                    <li><span>Live Chat</span></li>
+                    <li><span>Email Sign Up</span></li>
+                    <li><span>Investors</span></li>
+                    <li><span>Contact Us</span></li>
+                </ul>
+            </div>
+            <div class="footerInnerSection2">
+                <ul>
+                    <li class="subHeader2"><span>CAREERS</span></li>
+                    <li class="subHeader2"><span>COMMUNITY</span></li>
+                    <li class="subHeader2"><span>LIKE NEW</span></li>
+                    <li class="subHeader2"><span>SUBSTAINABILITY</span></li>
+                    <li class="subHeader2"><span>SOCIAL IMPACT</span></li>
+                    <li class="subHeader2"><span>DIVERSITY AND INCLUSION</span></li>
+                    <li class="subHeader2"><span>LULULEMON APPS</span></li>
+                    <li class="subHeader2"><span>SITEMAP</span></li>
+                </ul>
+            </div>
+            <div class="footerInnerSection2">
+                <ul>
+                    <li class="subHeader2"><span>GIFT CARDS</span></li>
+                    <li class="subHeader2"><span>STORE LOCATOR</span></li>
+                    <li><span>Privacy Policy</span></li>
+                    <li>
+                        <span>Your Privacy Choices<img src="images\f-privacy.svg" alt="logo" style="margin-left: 4px;"></span>
+                    </li>
+                    <li><span>California Privacy Rights</span></li>
+                    <li><span>California Transparency Act</span></li>
+                </ul>
+            </div>
+            <div class="footerInnerSectionSocialMedia">
+                <a class="socialMediaIcons" href="https://shop.lululemon.com" title="lululemon's twitter feed">
+                    <img src="images\twitter.svg" alt="logo">
+                </a>
+                <a class="socialMediaIcons" href="https://pinterest.com/lululemon" title="lululemon's pinterest feed">
+                    <img src="images\pinterest.svg" alt="logo">
+                </a>
+                <a class="socialMediaIcons" href="https://youtube.com/lululemon" title="lululemon's youtube feed">
+                    <img src="images\yt.svg" alt="logo">
+                </a>
+                <a class="socialMediaIcons" href="https://facebook.com/lululemon" title="lululemon's facebook feed">
+                    <img src="images\fb.svg" alt="logo">
+                </a>
+                <a class="socialMediaIcons" href="https://instagram.com/lululemon" title="lululemon's instagramfeed">
+                    <img src="images\ig.svg" alt="logo">
+                </a>
+            </div>
+        </div>
+        <div class="bottomFooter">
+            <div>
+                <ul>
+                    <li id="privacyPolicy">Privacy Policy</li>
+                    <li>Terms of Use</li>
+                </ul>
+            </div>
+            <div>© lululemon athletica 1818 Cornwall Ave, Vancouver BC V6J 1C7</div>
+        </div>
+    </footer>
+
+</body>
+<script src="//cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.js"></script>
+<script src="home.js" defer></script>
+</html>
